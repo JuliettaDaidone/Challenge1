@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elon Musk Adventure</title>
+    <link rel="stylesheet" href="css/Styles.css">
+    <script src="JS/script.js"> </script>
+</head>
+
+<!-- // Header-->
+<body bgcolor="#001B27">
+<header>
+	<div>
+		<h1>Mars colonists travel to the surface of Mars.</h1>
+      <h2>Distance Traveled</h2>
+        <p id="current-distance">27.3M / 54.6M kilometers</p>
+  </div>
+</header>
+
+
+<!-- // Dashboard-->
+<main>
+  <div class="dash">
+    <h1>Dashboard</h1>
+  </div>
+
+
+<!-- // Fuel-->
+  <div class="fuelsection">
+    <div class="container">
+      <div id="current-fuel" style="width: 100%">
+      </div>
+    </div>
+
+    <p>Fuel</p>
+    <p id="percent-fuel"> 100% </p>
+  </div>
+
+
+<!-- // Food-->
+<div class="foodsection">
+  <div class="container">
+    <div id="current-food" style="width: 100%">
+    </div>
+  </div>
+  <p>Food</p>
+  <p id="percent-food"> 100% </p>
+</div>
+
+
+<!-- // Conversion: Earth Miles - Mars Miles -->
+<div class="conversionsection">
+  <h2>Mile Converter</h2>
+  <br>
+  <p>Type the amount of Earth miles you want to convert into to Mars miles in the field bellow.</p>
+  <br>
+  <label>Miles on Earth:</label>
+  <input id="inputEMiles" type="number" placeholder="Enter Miles" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)"></p>
+  <p>Miles on Mars: <span id="outputMMiles"></span></p>
+</div>
+
+
+<!-- // javascript calling-->
+  <script type="text/javascript">
+    displayvalue();
+    foodvalue();
+    distancevalue();
+    lengthconverter();
+</script>
+
+</main>
+
+</body>
+
+</html>
+

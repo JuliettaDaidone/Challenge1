@@ -1,0 +1,110 @@
+/* Global styles
+-------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+body {
+  font-family: "Arial",sans-serif;
+}
+
+header {
+  background:
+    url(../images/travelling.png) no-repeat fixed;
+     background-size: 100%;
+     border: 1px solid white;
+     height: 300px;
+   }
+
+header h1, h2, p {
+  color: #FFFFFF;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+header h2 {
+  padding-top: 200px;
+}
+
+main {
+  background-color: #001B27;
+  background-size: 100%;
+  height: 500px;
+}
+
+main p {
+  color: #FFFFFF;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+}
+
+.dash {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  background: #001B27;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
+/* Fuel
+____________________________*/
+
+.fuelsection {
+text-align: center;
+width: 30%;
+display: inline-block;
+}
+
+.container {
+  width: 90px;
+  height: 300px;
+  border: 1px solid white;
+  margin: 0 auto;
+}
+
+#current-fuel {
+  width: 100%;
+background: red;
+}
+
+
+
+/* Food
+____________________________*/
+
+.foodsection {
+text-align: center;
+width: 10%;
+display: inline-block;
+}
+
+.container {
+  width: 90px;
+  height: 300px;
+  border: 1px solid white;
+}
+
+#current-food {
+  width: 100%;
+background: red;
+}
+
+/* Conversion
+____________________________*/
+
+.conversionsection {
+  border: 1px solid white;
+  margin-left: 270px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 30%;
+  display: inline-block;
+  position: absolute;
+  padding: 40px;
+}
+
